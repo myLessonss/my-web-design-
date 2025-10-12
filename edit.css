@@ -1,0 +1,178 @@
+body{
+    background-image:url(img/cloud.jpg);
+    width:100%;
+    background-size:cover;
+
+}
+/*First table(Header tables)*/
+.firstTable{
+    width:98%;
+    color:white;
+    background-color:black;
+    
+}
+.logoImg{
+    height:50px;
+    width:70px;
+}
+.bannerImg{
+    width:100%;
+    height:60px;
+    margin-bottom:-3px;
+}
+.secondTable{
+    width:98%;
+    height:70px;
+    border-color:rgb(9, 7, 7);
+}
+/* third table*/
+.last-table{
+    margin-top:10px;
+}
+.about-table{
+    background-color:white;
+    height:100px;
+    
+    
+}
+.about-data{
+    border-radius:20px;
+    border:none;
+    background-color:black;
+    color:white;
+    height:12px;
+    padding-left:20px;
+    
+}
+.In-about-table{
+    margin-top:-5px;
+
+}
+.about-dataF{
+    font-size:12px;
+}
+.about-paragraph{
+    font-weight:20px;
+    border:none;
+}
+.about-p{
+    font-size:10px;
+}
+.bible{
+    width:330px;
+    height: 150px;
+}
+.bible-img{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+.auca-modern{
+    background-color:rgb(28, 28, 124);
+    color:white;
+    font-size:11px;
+    border-radius:20px;
+    border:none;
+    
+}
+.auca-modernF{
+    height:10px;
+}
+.auca-modernParag{
+    font-weight:20px;
+    border:none;
+}
+.auca-modernP{
+    font-size:10px;
+}
+/*description edit*/
+
+.description{
+    background-image:url(img/aerial.jpg);
+    padding:10px;
+    width:180px;
+
+}
+.description-div{
+    background-color:white;
+    padding:5px;
+    font-size:11px;
+    margin-top:0px;
+    height:380px;
+}
+/*input form*/
+.calculate{
+    background-color:white;
+    margin-top:-10px;
+    border:none;
+}
+label{
+    font-family:Bahnschrift;
+    font-size:10px;
+    font-weight:bold;
+}
+.input-form{
+    width:100px;
+    height:10px;
+}
+.calculate-header{
+    margin-top:-4.7px;
+}
+button{
+    width:80px;
+    height:17px;
+    margin:5px;
+}
+.button-input{
+    width:95px;
+    height:15px;
+    margin-top:-90px;
+}
+.small-title{
+    font-family:Bahnschrift;
+    font-weight:bold;
+    font-size:12px;
+    padding-top:20px;
+}
+.calculate-list{
+    margin-top:0px;
+    font-family:Bahnschrift;
+    font-weight:lighter;
+    font-size:13px;
+}
+/*last side*/
+.auca{
+    background-color:white;
+    width:349px;
+}
+.auca-title{
+    background-color:black;
+    color:white;
+    border-radius:20px;
+    height:30px;
+    width:340px;
+    padding-top:10px;
+    padding-left:5px;
+    font-size:13px;
+    margin-top:0px;
+}
+.auca-titleP{
+    font-size:11px;
+}
+.auca-course{
+    background-color:rgb(28, 28, 124);
+    color:white;
+    border-radius:20px;
+    padding-left:10px;
+    height:30px;
+    width:340px;
+    padding-top:10px;
+    margin-top:0px;
+
+}
+.auca-courseP{
+    font-size:11px;
+}
+.auca-view{
+    height:150px;
+}
