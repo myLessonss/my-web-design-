@@ -37,5 +37,13 @@ for(let x in myobj2){
 }
 //Date making
 const d = new Date();
-const time=d.getFullYear;
+const time=d.getFullYear();
 document.getElementById('date').innerHTML=time;
+
+//Lets try to make an array
+myarray=["alan","peter","john","pid"];
+let mylist="";
+for(let i=0;i<4;i++){
+    mylist+="<li>"+myarray[i]+"</li>";
+    document.getElementById('loop').innerHTML=mylist;
+}
