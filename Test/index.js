@@ -36,6 +36,6 @@ for(let x in myobj2){
     document.getElementById('demo2').innerHTML=text;
 }
 //Date making
-const d = new Date(2000,1,1,10,2);
-const time=d.toDateString();
+const d = new Date();
+const time=d.getFullYear;
 document.getElementById('date').innerHTML=time;
