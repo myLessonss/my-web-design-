@@ -23,3 +23,15 @@ const myobj={
     }
 }
 document.getElementById('demo').innerHTML=myobj.fullDisc();
+//Looping to display object
+const myobj2={
+    name:"Jux",
+    age:24,
+    address:"Kigali",
+    natiionality:"Rwanda",
+}
+let text=" ";
+for(let x in myobj2){
+    text+=myobj2[x]+" ";
+    document. getElementById('demo2').innerHTML=text;
+}
