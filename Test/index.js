@@ -18,8 +18,8 @@ const myobj={
         car3:"Toyota"
     },
     fullDisc:function(){
-        return "My name is "+this.name+" am "+this.age+" old. I have 3 cars "+this.car.car1+","+this.car.car2
-        +","+this.car.car3+".";
+        return ("My name is "+this.name+" am "+this.age+" old. I have 3 cars "+this.car.car1+","+this.car.car2
+        +","+this.car.car3+".").toUpperCase();
     }
 }
 document.getElementById('demo').innerHTML=myobj.fullDisc();
