@@ -108,21 +108,21 @@
                                             <td><label>
                                         COURSE-WORKs/30:</label><br>
                                             </td>
-                                            <td><input class="input-form">
+                                            <td><input class="input-form" id="course">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td><label>
                                         MID-TERM/30:</label><br>
                                             </td>
-                                            <td><input class="input-form">
+                                            <td><input class="input-form" id="mid">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td><label>
                                         FINAL-EXAM/40:</label><br>
                                             </td>
-                                            <td><input class="input-form">
+                                            <td><input class="input-form" id="final">
                                             </td>
                                         </tr>
                                     </table>
@@ -134,24 +134,24 @@
                                 <table class="button-table">
                                     <tr>
                                         <td>
-                                            <button>TOTAL</button><br><br>
-                                            <input class="button-input">
+                                            <button type="button" onclick="total()">TOTAL</button><br><br>
+                                            <input class="button-input" id="ftotal">
                                         </td>
                                         <td>
-                                            <button>AVERAGE</button><br><br>
-                                            <input class="button-input">
+                                            <button type="button" onclick="average()">AVERAGE</button><br><br>
+                                            <input class="button-input" id="favrg">
                                         </td>
                                         <td>
-                                            <button>GRADE</button><br><br>
-                                            <input class="button-input">
+                                            <button type="button" onclick="grade()">GRADE</button><br><br>
+                                            <input class="button-input" id="grade">
                                         </td>
                                     </tr>
                                 </table>
                                 <p class="small-title">Please use the following criteria to check for the grade:</p>
                                 <ul>
                                     <li class="calculate-list">Marks between 100 and 70, it will display "A"</li>
-                                    <li class="calculate-list">Marks between 69.9 and 60, it will display "A"</li>
-                                    <li class="calculate-list">Marks between 59.9 and 50, it will display "A"</li>
+                                    <li class="calculate-list">Marks between 69.9 and 60, it will display "B"</li>
+                                    <li class="calculate-list">Marks between 59.9 and 50, it will display "C"</li>
                                     <li class="calculate-list">Marks below 50, it will display " Failed"</li>
                                 </ul>
                             </td>
@@ -176,5 +176,6 @@
                 </td>
             </tr>
         </table>
+        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
