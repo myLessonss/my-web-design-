@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+}
+.outer{
+    width: 1500px;
+}
+label{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakc{
+    margin-left: 200px;
+}
+.t1{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+.b1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.td2{
+    padding: 10px;
+    font-size: larger;
+}

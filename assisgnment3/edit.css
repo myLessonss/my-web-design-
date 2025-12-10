@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+.firstTable{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10px;
+}
+.logoImage{
+    width: 50px;
+    height: 50px;
+}
+.secondTable{
+    width: 100%;
+    height: 100px;
+}
+.secondColumn{
+    background-image: url(image/bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 800px;
+}
+.welcomeHeader{
+    background-color: rgb(1, 11, 121);
+    width: 95%;
+    margin-left: 15px;
+    border-radius: 20px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: -40px;
+    padding-left: 10px;
+
+}
+.entryHeader{
+    background-color: rgb(1, 11, 121);
+    width: 95%;
+    margin-left: 15px;
+    border-radius: 20px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.collegeHeader{
+    background-color: rgb(1, 11, 121);
+    width: 95%;
+    margin-left: 15px;
+    border-radius: 20px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.firstColumn{
+    width: 270px;
+    height: 527px;
+    margin-top: -0px;
+}
+
+.formHeader{
+    background-color: rgb(1, 11, 121);
+    width: 420px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.ourParagraph{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.studentName{
+    padding-top: 20px;
+}
+
+.answerTable{
+    border-left: none;
+    border-right: none;
+    margin-top: 30px;
+}
+.totalT{
+    border: none;
+    padding-right:20px;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.lastButton{
+    padding-top:20px ;
+    margin-left: 20px;
+    width: 400px;
+}
+.printButton{
+    margin-left:0px;
+}

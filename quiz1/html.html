@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <table border="1" class="outer">
+            <tr>
+                <td class="b1"><b >EMPLOYMENT MANAGEMENT SYSTEM</b></td>
+            </tr>
+            <tr>
+                <td >
+                    <form action="php.php" method="post">
+                        <table border="1" class="t1">
+                            <tr>
+                                <td class="td2">
+                                    <label >
+                        EMPLOYEE NAMES:<input type="text" name="empName" id="empName"><br><br>
+                        </label>
+                        <label for="">
+                        EMPLOYEE-ADDRESS: <input type="text" name="addresses" id="addresses"><br><br>
+                        </label><label for="">
+                        MONTHLY SALARY: <input type="text" name="monthSalary" id="monthSalary"><br><br>
+                        </label>
+                        <label>
+                        EMPLOYMENT-PERIOD: <input type="text" name="time" id="time"><br><br>
+                        </label>
+                        <p>The benefit rate depends on Employment period as follows: </p>
+                        <ul>
+                        <li>>=10 year: 20%</li>
+                        <li>>=5 years but <span><10</span> years:15%</li>
+                        <li>5 years:10%</li>
+                        </ul>
+                                </td>
+                            </tr>   
+                            <tr>
+                                <td  class="td2">
+                                    <button type="button" onclick="totalfu()" class="cakc">CLICK TO CALCULATE </button><br><br><br>
+                                    <b>Total amount to be received: <input type="text" name="total" id="total"></b><br><br>
+                                    <b>The received Amount to be received per mounth: <input type="text" name="mounth" id="mounth"></b><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  class="td2">
+                                    <button type="submit" name="submit">SAVE</button>
+                                    <a href="display.php">
+                                     <button type="button">DISPLAY FROM DB</button></a>
+                                    <button type="reset">RESET</button>
+                                    <button type="button" onclick="window.print()">PRINT</button>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    <script src="javascript.js"></script>
+    </body>
+</html>

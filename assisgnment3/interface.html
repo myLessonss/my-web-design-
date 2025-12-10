@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 3</title>
+        <link rel="stylesheet" href="edit.css">
+    </head>
+    <body>
+        <table class="firstTable">
+            <tr>
+                <td> <img src="image/logo.jpeg" alt="Logo" class="logoImage"></td>
+                <td>About</td>
+                <td>Admissions</td>
+                <td>News</td>
+                <td>Partners</td>
+                <td>Help</td>
+            </tr>            
+        </table>
+        <table style="width: 100%;" border="1">
+            <tr>
+                <td><img src="image/pp.jpeg" alt=""class="secondTable"></td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td><img src="image/back.jpeg" alt="" class="firstColumn"></td>
+                <td class="secondColumn">
+                    <h2 class="welcomeHeader">WELCOME TO UNIVERSITY OF RWANDA</h2>
+                    <p class="ourParagraph">UR is actively pursuing to urgent developmental challenges
+                        and is seeking meaningful, equitable,empowering, <br>enlightening,
+                        and mutually beneficial partnership to access global knowledge and 
+                        expertise.
+                    </p>
+                    <h2 class="entryHeader">Entry requirements by College</h2>
+                    <p class="ourParagraph">Here you'll find a detailes explanation of each admission application
+                        requirement. Most of the information here applies to <br>both first-year 
+                        and transfer applicants, and requirementsare the same of domestic and 
+                        international applicants.
+                    </p>
+                    <h2 class="collegeHeader">Colleges at UR:</h2>
+                    <ul class="ourParagraph">
+                        <li>College of Arts and Social Sciences(CASS)</li>
+                        <li>College of Agriculture ,Animal sciences and Veterinary Medecine(CAVM)</li>
+                        <li>College of Business and Economics(CBE)</li>
+                        <li>College of Medecine and Health Sciences(CMHS)</li>
+                        <li>College of Education(CE)</li>
+                        <li>College of Science and Technology(CST)</li>
+                    </ul>
+                </td>
+                <td>
+                    <h2 class="formHeader">CALCULATE STUDENTS MARKS:</h2>
+                    <table>
+                        <tr>
+                            <td>
+                               <form action="calc.php" method="post" id="marksForm">
+                                <table>
+                                    <tr>
+                                        <td>STUDENT-NAME:</td>
+                                        <td><input type="text" name="student_name" id="student_name"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="studentName">STUDENT-ID: </td>
+                                        <td class="studentName"><input type="text" name="student_id" id="student_id"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="studentName">DEPARTMENT:</td>
+                                        <td class="studentName"><input type="text" name="department" id="department"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="studentName">COURSE-WORKs/30:</td>
+                                        <td class="studentName"><input type="number" name="coursework" id="cw"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="studentName">MID-TERM/30:</td>
+                                        <td  class="studentName"><input type="number" name="midterm" id="mid"></td>
+                                    </tr>
+                                    <tr>
+                                        <td  class="studentName">FINAL-EXAM/40:</td>
+                                        <td  class="studentName"><input type="number" name="final_exam" id="final"></td>
+                                    </tr>
+                                </table>
+                                <table border="1" class="answerTable">
+                                    <tr>
+                                        <td class="totalT">
+                                            <button type="button" onclick="totalMarks()">TOTAL</button><br><br>
+                                            <input type="text" id="total_output" size="12" readonly>
+                                        </td>
+                                        <td class="totalT">
+                                            <button type="button" onclick="averageMarks()">AVERAGE</button><br><br>
+                                            <input type="text" id="avg_output" size="12" readonly>
+                                        </td>
+                                        <td class="totalT">
+                                            <button type="reset">DELETE</button><br><br>
+                                            <input type="text" id="delete_output" size="12" readonly>
+                                        </td>
+                                    </tr>
+                                    <table class="lastButton">
+                                    <tr>
+                                        <td class="totalTd">
+                                            <button type="submit" class="subButton" name="submit">SUBMIT</button>
+                                        </td>
+                                        <td class="totalTdg">
+                                            <button type="button" onclick="retrieveData()">RETRIEVE</button>
+                                        </td>
+                                        <td class="printButton" id="retrieve_output"> 
+                                            <button type="button" onclick="printPage()">PRINT</button>
+                                        </td>
+                                    </tr>
+                                    </table>
+
+                                </table>
+                               </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+ </body>
+</html>

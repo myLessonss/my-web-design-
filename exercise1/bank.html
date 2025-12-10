@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td ><b>ONLINE SALARY MANAGEMENT SYSTEM</b></td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="bank.php" method="post" id="bank">
+                        <label>GROSS SALARY: <input type="text" name="gross" id="gross"></label><br><br>
+                    <label>TRANSPORT ALLOWANCE: <input type="text" name="allowance"id="allowance" ></label><br><br>
+                    <label>PROVIDENT FUND: <input type="text"name="fund"id="fund"></label><br><br>
+                    <label>INCOME TAX: <input type="text" name="tax" id="tax"></label><br><br>
+                    <label>HEALTH INSURANCE: <input type="text" name="insurance" id="insurance"></label><br><br>    
+                    <button type="button" onclick="netSalary()">NET SALARY</button>
+                    <button type="button" onclick="monthlySalary()">MONTHLY SALARY</button>
+                    <button type="button" onclick="annualySalary()">ANNUALY SALARY</button><br><br>
+                    <textarea name="textarea" id="textarea"></textarea><br><br>
+                    <button type="submit" name="submit" id="save">SAVE DATA</button>
+                    <button type="button" id="retrieve"  onclick=" retrieveData()">RETRIEVE FROM DB</button>
+                    <button type="reset">CANCEL</button>
+
+                    </form>
+
+                </td>
+            </tr>
+        </table>
+        <script src="bank.js"></script>
+    </body>
+</html>
